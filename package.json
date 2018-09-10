@@ -1,10 +1,10 @@
 {
-  "name": "next",
-  "version": "6.1.1",
+  "name": "@ammo/next",
+  "version": "6.1.1-patched",
   "description": "Minimalistic framework for server-rendered React applications",
   "main": "./dist/server/next.js",
   "license": "MIT",
-  "repository": "zeit/next.js",
+  "repository": "danilospa/next.js",
   "bugs": "https://github.com/zeit/next.js/issues",
   "homepage": "https://github.com/zeit/next.js",
   "files": [
@@ -26,6 +26,10 @@
   ],
   "bin": {
     "next": "./dist/bin/next"
+  },
+  "publishConfig": {
+    "registry": "https://repo.mmartan.com.br/repository/npm-ammo-private/",
+    "access": "public"
   },
   "scripts": {
     "build": "taskr",
