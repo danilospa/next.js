@@ -1,5 +1,5 @@
 {
-  "name": "@ammo/next",
+  "name": "next",
   "version": "6.1.1-patched",
   "description": "Minimalistic framework for server-rendered React applications",
   "main": "./dist/server/next.js",
